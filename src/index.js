@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Season from './Season';
+import LoadingIcon from './LoadingIcon';
 
 class App extends React.Component {
    // constructor(props) {
@@ -47,7 +48,7 @@ class App extends React.Component {
          return <Season latitude={this.state.latitude} />;
       }
 
-      return <div>Loading...</div>;
+      return <LoadingIcon />;
    }
 }
 
