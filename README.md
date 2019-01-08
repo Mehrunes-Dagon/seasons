@@ -1,6 +1,6 @@
 ### This app will determine your weather based on your geolocation.
 
-## Link: [seasons](seasons.netlify.com)
+## Demo: (https://seasons.netlify.com/)
 
 ## Built with:
 
