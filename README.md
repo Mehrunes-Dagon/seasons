@@ -4,8 +4,8 @@
 
 ## Built with:
 
-React
-semantic-ui
-Navigator web API
+- React
+- semantic-ui
+- Navigator web API
 
 ### Have fun!
