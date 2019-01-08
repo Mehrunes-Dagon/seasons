@@ -37,8 +37,7 @@ class App extends React.Component {
       console.log('My component is no longer rendered.');
    }
 
-   render() {
-      // return JSX
+   content() {
       const { latitude, errorMessage } = this.state;
 
       if (errorMessage && !latitude) {
@@ -48,7 +47,15 @@ class App extends React.Component {
          return <Season latitude={this.state.latitude} />;
       }
 
-      return <LoadingIcon />;
+      return <LoadingIcon message="Waiting for location data..." />;
+   }
+
+   render() {
+      return (
+         <div className="border red">
+            {this.content()}
+         </div>
+      )
    }
 }
 
